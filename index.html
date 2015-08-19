@@ -2,6 +2,7 @@
 <head>
 	<title>boondocking. discover free campsites all across the glorious u.s. of a.</title>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:100|Noto+Serif|Lato:900,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
 	<meta charset="utf-8">
 </head>
@@ -17,33 +18,57 @@
 		</div>
 		<div id="logo-nav">
 			<nav>
-				<a href="#story">Story</a>
-				<a href="#how-it-works">How it Works</a>
-				<a href="#search">Search</a>
+				<a href="#story" class="scroll down">Story</a>
+				<a href="#how-it-works" class="scroll down">How it Works</a>
+				<a href="#search" class="scroll down">Search</a>
 			</nav>
 		</div>
 	</div>
-	<div class="welcome">
-		<h1>Some things in life really are free.</h1>
-	</div>
-	<div class="story">
-		<a id="#story">
-		<div class="story-content"></a>
-			<p><img src="images/girl-suv.jpg" width="500px"></p>
-			<h3>The story.</h3>
-			<p>Boondocking is for the adventurers. The inquisitive and the fearless. You seek out the unknown and revel in those chance meetings and in once-in-a-lifetime opportunities. Traditional campsites bore you. To hell with designated parking spots. To hell with fenced off firepits. You pave your own path that doensn't come with a pricetag.</p>
+	<div id="wrapper">
+		<div class="welcome">
+			<h1 class="welcome-text"></h1>
 		</div>
-	<div class="how-it-works">
-		<div class="how-it-works-content">
-			<p><img src="#"></p>
-			<h3>How it works.</h3>
-			<p>McSweeney's craft beer ethical mixtape street art. Listicle try-hard selvage, vinyl four loko chambray viral tousled cold-pressed. Bushwick twee cred YOLO lumbersexual Tumblr, iPhone paleo dreamcatcher organic Wes Anderson Odd Future meditation artisan. Listicle keffiyeh Schlitz, Thundercats scenester authentic seitan mumblecore umami.</p>
-		</div>
-	</div>
+		<div id="story">
+			<div class="story-content"></a>
+				<p><img src="images/girl-suv.jpg" width="500px"></p>
+				<h3>The story.</h3>
+				<p>Boondocking is for the adventurers. The inquisitive and the fearless. You seek out the unknown and revel in those chance meetings and once-in-a-lifetime opportunities. Traditional campsites bore you. To hell with designated parking spots. To hell with fenced off firepits. You pave your own path and that doesn't come with a pricetag.</p>
+			</div>
+<!-- 		</div> -->
+		<div id="how-it-works">
+			<div class="how-it-works-content">
+				<h3>How it works.</h3>
+					<div class="col-4">
+						<img src="images/rv.png" width="125px">
+					</div>
+					<div class="col-8">
+						Search for a free campsite by navigating the map around your desired location.
+					</div>
+					<div class="col-4">
+						<img src="images/road.png" width="125px">
+					</div>
+					<div class="col-8">
+						Read the description and terms for camping at your desired spot. Commit to being a good steward of the land. Don't be an asshole.
+					</div>
+					<div class="col-4">
+						<img src="images/tent.png" width="125px">
+					</div>
+					<div class="col-8">
+						Search for a free campsite by navigating the map around your desired location.
+					</div>
+			</div>
+<!-- 		</div> -->
+		<div id="search">
+			<div class="search-content">
+				<h3>Start lookin'.</h3>
+				<div id="map"></div>
+			</div>
+<!-- 		</div> -->
 	</div>
 </div>
 
 <!-- jQuesry script links at end of body tag -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="js/main.js"></script>
 </body>
