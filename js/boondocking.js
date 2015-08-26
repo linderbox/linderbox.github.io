@@ -1,6 +1,6 @@
 var boonDocking = {
 
-    "results" [
+    "results": [
       {
         "POIID": 1,
         "Description": "Cherokee National Forest USFS near Elizabethton, TN off of Panhandle Rd, flat parking spot in a pushoff just off of Panhandle Rd.  Privacy behind parking spot, but road lies in front of the pushoff.  Road sees light use (1 car every 20-40 min) as a forest service road.  I accessed it off of TN 91 north east of Elizabethton.  There was no road sign for Panhandle Rd as the road was under construction.",
